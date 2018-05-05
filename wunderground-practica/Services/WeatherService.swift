@@ -8,13 +8,21 @@
 
 import Foundation
 
+/** intermediate struct for current weather forecast responses
+ */
+private struct WeatherInfo: Codable {
+    
+    let current_observation: RawCurrentWeatherInfo
+    
+}
+
 struct WeatherService {
     
     private let weatherUndergroundKey = ""
     
     /**fetches current weather data based on location and calls completion with current weather data model
      */
-    func fetchCurrentWeather() {
+    func fetchCurrentWeather(completion: @escaping (CurrentWeatherInfo) -> Void) {
         var components = URLComponents()
         components.scheme = "http"
         components.host = "api.wunderground.com"
@@ -26,7 +34,14 @@ struct WeatherService {
         }
         
         NetworkManager.fetchDataFor(url: url) { (data) in
-            print(String(describing: String(data: data, encoding: .utf8)))
+            do {
+                let weatherInfo = try JSONDecoder().decode(WeatherInfo.self, from: data)
+                let rawCurrentWeatherInfo = weatherInfo.current_observation
+                let currentWeatherInfo = CurrentWeatherInfo(rawCurrentWeatherInfo)
+                completion(currentWeatherInfo)
+            } catch {
+                
+            }
         }
     }
     

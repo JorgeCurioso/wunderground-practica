@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A66C470209E230400BB61E7 /* CurrentWeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A66C46F209E230400BB61E7 /* CurrentWeatherInfo.swift */; };
 		3AC3F282209E0E9700003175 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3F281209E0E9700003175 /* AppDelegate.swift */; };
 		3AC3F284209E0E9700003175 /* CurrentForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3F283209E0E9700003175 /* CurrentForecastViewController.swift */; };
 		3AC3F287209E0E9700003175 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC3F285209E0E9700003175 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A66C46F209E230400BB61E7 /* CurrentWeatherInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherInfo.swift; sourceTree = "<group>"; };
 		3AC3F27E209E0E9700003175 /* wunderground-practica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wunderground-practica.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AC3F281209E0E9700003175 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AC3F283209E0E9700003175 /* CurrentForecastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentForecastViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A66C471209E230800BB61E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A66C46F209E230400BB61E7 /* CurrentWeatherInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		3AC3F275209E0E9700003175 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +98,7 @@
 				3AC3F28D209E0E9800003175 /* Info.plist */,
 				3AC3F2A7209E11EE00003175 /* Services */,
 				3AC3F2AA209E1A3800003175 /* Managers */,
+				3A66C471209E230800BB61E7 /* Models */,
 			);
 			path = "wunderground-practica";
 			sourceTree = "<group>";
@@ -253,6 +264,7 @@
 			files = (
 				3AC3F2A9209E1A3300003175 /* NetworkManager.swift in Sources */,
 				3AC3F284209E0E9700003175 /* CurrentForecastViewController.swift in Sources */,
+				3A66C470209E230400BB61E7 /* CurrentWeatherInfo.swift in Sources */,
 				3AC3F2A6209E11E900003175 /* WeatherService.swift in Sources */,
 				3AC3F282209E0E9700003175 /* AppDelegate.swift in Sources */,
 			);

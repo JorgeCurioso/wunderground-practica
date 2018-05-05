@@ -16,7 +16,12 @@ class CurrentForecastViewController: UIViewController {
         super.viewDidLoad()
         
         weatherService = WeatherService()
-        weatherService?.fetchCurrentWeather()
+        weatherService?.fetchCurrentWeather(completion: { (currentWeatherInfo) in
+            DispatchQueue.main.async {
+                print("currentTemp: \(currentWeatherInfo.temperatureInDegreesFarenheit)º")
+                //update UI
+            }
+        })
     }
 
 }
