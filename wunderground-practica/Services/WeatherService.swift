@@ -18,9 +18,9 @@ private struct WeatherInfo: Codable {
 
 struct WeatherService {
     
-    private let weatherUndergroundKey = ""
+    private let weatherUndergroundKey = "56d1cbbbdb73f830"
     
-    /**fetches current weather data based on location and calls completion with current weather data model
+    /**fetches current weather data based on location and calls completion with current weather info data model
      */
     func fetchCurrentWeather(completion: @escaping (CurrentWeatherInfo) -> Void) {
         var components = URLComponents()
@@ -38,9 +38,10 @@ struct WeatherService {
                 let weatherInfo = try JSONDecoder().decode(WeatherInfo.self, from: data)
                 let rawCurrentWeatherInfo = weatherInfo.current_observation
                 let currentWeatherInfo = CurrentWeatherInfo(rawCurrentWeatherInfo)
+                
                 completion(currentWeatherInfo)
             } catch {
-                
+                print("could not parse data model")
             }
         }
     }

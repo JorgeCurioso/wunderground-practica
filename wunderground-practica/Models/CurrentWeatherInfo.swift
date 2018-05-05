@@ -11,9 +11,11 @@ import Foundation
 struct CurrentWeatherInfo {
     
     let temperatureInDegreesFarenheit: Float
+    let roundedTemperatureInDegreesFarenheit: Int
     
     init(_ raw: RawCurrentWeatherInfo) {
         temperatureInDegreesFarenheit = raw.temp_f
+        roundedTemperatureInDegreesFarenheit = Int(temperatureInDegreesFarenheit.rounded())
     }
 }
 

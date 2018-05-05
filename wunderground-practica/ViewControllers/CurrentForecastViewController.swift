@@ -10,6 +10,8 @@ import UIKit
 
 class CurrentForecastViewController: UIViewController {
 
+    @IBOutlet weak var currentTemperatureLabel: UILabel!
+    
     private var weatherService: WeatherService? = nil
     
     override func viewDidLoad() {
@@ -17,9 +19,11 @@ class CurrentForecastViewController: UIViewController {
         
         weatherService = WeatherService()
         weatherService?.fetchCurrentWeather(completion: { (currentWeatherInfo) in
-            DispatchQueue.main.async {
-                print("currentTemp: \(currentWeatherInfo.temperatureInDegreesFarenheit)º")
-                //update UI
+            DispatchQueue.main.async { [weak self] in
+                guard let strongSelf = self else {
+                    return
+                }
+                strongSelf.currentTemperatureLabel.text = "\(currentWeatherInfo.roundedTemperatureInDegreesFarenheit)º"
             }
         })
     }
