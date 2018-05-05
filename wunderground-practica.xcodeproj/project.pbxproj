@@ -13,6 +13,8 @@
 		3AC3F289209E0E9800003175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC3F288209E0E9800003175 /* Assets.xcassets */; };
 		3AC3F28C209E0E9800003175 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC3F28A209E0E9800003175 /* LaunchScreen.storyboard */; };
 		3AC3F297209E0E9800003175 /* wunderground_practicaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3F296209E0E9800003175 /* wunderground_practicaTests.swift */; };
+		3AC3F2A6209E11E900003175 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3F2A5209E11E900003175 /* WeatherService.swift */; };
+		3AC3F2A9209E1A3300003175 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3F2A8209E1A3300003175 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		3AC3F292209E0E9800003175 /* wunderground-practicaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wunderground-practicaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AC3F296209E0E9800003175 /* wunderground_practicaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wunderground_practicaTests.swift; sourceTree = "<group>"; };
 		3AC3F298209E0E9800003175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AC3F2A5209E11E900003175 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		3AC3F2A8209E1A3300003175 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 				3AC3F2A2209E0EC600003175 /* Storyboards */,
 				3AC3F2A3209E0EF800003175 /* Assets */,
 				3AC3F28D209E0E9800003175 /* Info.plist */,
+				3AC3F2A7209E11EE00003175 /* Services */,
+				3AC3F2AA209E1A3800003175 /* Managers */,
 			);
 			path = "wunderground-practica";
 			sourceTree = "<group>";
@@ -126,6 +132,22 @@
 				3AC3F281209E0E9700003175 /* AppDelegate.swift */,
 			);
 			path = ApplicationLifecycle;
+			sourceTree = "<group>";
+		};
+		3AC3F2A7209E11EE00003175 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3AC3F2A5209E11E900003175 /* WeatherService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3AC3F2AA209E1A3800003175 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3AC3F2A8209E1A3300003175 /* NetworkManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +251,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AC3F2A9209E1A3300003175 /* NetworkManager.swift in Sources */,
 				3AC3F284209E0E9700003175 /* CurrentForecastViewController.swift in Sources */,
+				3AC3F2A6209E11E900003175 /* WeatherService.swift in Sources */,
 				3AC3F282209E0E9700003175 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

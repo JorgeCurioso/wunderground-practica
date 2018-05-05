@@ -10,9 +10,13 @@ import UIKit
 
 class CurrentForecastViewController: UIViewController {
 
+    private var weatherService: WeatherService? = nil
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        weatherService = WeatherService()
+        weatherService?.fetchCurrentWeather()
     }
 
 }
