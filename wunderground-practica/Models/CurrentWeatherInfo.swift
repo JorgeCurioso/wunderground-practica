@@ -10,18 +10,24 @@ import Foundation
 
 struct CurrentWeatherInfo {
     
-    let temperatureInDegreesFarenheit: Float
-    let roundedTemperatureInDegreesFarenheit: Int
+    let degreesFarenheit: Measurement<UnitTemperature>
     
     init(_ raw: RawCurrentWeatherInfo) {
-        temperatureInDegreesFarenheit = raw.temp_f
-        roundedTemperatureInDegreesFarenheit = Int(temperatureInDegreesFarenheit.rounded())
+        degreesFarenheit = Measurement(value: raw.roundedDegreesFarenheit(), unit: UnitTemperature.fahrenheit)
     }
 }
 
 struct RawCurrentWeatherInfo: Codable {
     
-    let temp_f: Float
+    private(set) var temp_f: Float
+    
+    func roundedDegreesFarenheit() -> Double {
+        return Double(temp_f).rounded()
+    }
+    
+    init(degreesFarenheit: Float) {
+        temp_f = degreesFarenheit
+    }
     
 }
 

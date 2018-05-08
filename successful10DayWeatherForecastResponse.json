@@ -1,0 +1,940 @@
+{
+  "response": {
+    "version": "0.1",
+    "termsofService": "http://www.wunderground.com/weather/api/d/terms.html",
+    "features": {
+      "forecast10day": 1
+    }
+  },
+  "forecast": {
+    "txt_forecast": {
+      "date": "12:10 AM EDT",
+      "forecastday": [
+        {
+          "period": 0,
+          "icon": "clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+          "title": "Tuesday",
+          "fcttext": "Sunny skies. High 47F. Winds ENE at 5 to 10 mph.",
+          "fcttext_metric": "Sunny. High 8C. Winds light and variable.",
+          "pop": "10"
+        },
+        {
+          "period": 1,
+          "icon": "nt_clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_clear.gif",
+          "title": "Tuesday Night",
+          "fcttext": "A mostly clear sky. Low 44F. Winds ESE at 5 to 10 mph.",
+          "fcttext_metric": "Clear. Low 7C. Winds ESE at 10 to 15 km/h.",
+          "pop": "10"
+        },
+        {
+          "period": 2,
+          "icon": "partlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+          "title": "Wednesday",
+          "fcttext": "Sunshine and clouds mixed. High 52F. Winds SE at 10 to 20 mph.",
+          "fcttext_metric": "Partly cloudy. High 11C. Winds SE at 15 to 30 km/h.",
+          "pop": "10"
+        },
+        {
+          "period": 3,
+          "icon": "nt_tstorms",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_tstorms.gif",
+          "title": "Wednesday Night",
+          "fcttext": "Windy with thunderstorms developing later at night. Low around 50F. Winds S at 20 to 30 mph. Chance of rain 80%.",
+          "fcttext_metric": "Windy. Thunderstorms becoming likely late. Low near 10C. Winds S at 30 to 50 km/h. Chance of rain 80%.",
+          "pop": "80"
+        },
+        {
+          "period": 4,
+          "icon": "partlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+          "title": "Thursday",
+          "fcttext": "Cloudy skies early will become partly cloudy later in the day. High 53F. Winds W at 15 to 25 mph.",
+          "fcttext_metric": "Cloudy skies early will become partly cloudy later in the day. High 11C. Winds W at 25 to 40 km/h.",
+          "pop": "20"
+        },
+        {
+          "period": 5,
+          "icon": "nt_partlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+          "title": "Thursday Night",
+          "fcttext": "A few clouds. Low 39F. Winds NNE at 10 to 20 mph.",
+          "fcttext_metric": "Partly cloudy. Low 4C. Winds NNE at 15 to 30 km/h.",
+          "pop": "10"
+        },
+        {
+          "period": 6,
+          "icon": "chancerain",
+          "icon_url": "http://icons.wxug.com/i/c/k/chancerain.gif",
+          "title": "Friday",
+          "fcttext": "Partly cloudy skies during the morning hours will give way to occasional showers in the afternoon. Thunder possible. High 43F. Winds ENE at 15 to 25 mph. Chance of rain 40%.",
+          "fcttext_metric": "Partly cloudy in the morning. Increasing clouds with periods of showers later in the day. Thunder possible. High 6C. Winds ENE at 25 to 40 km/h. Chance of rain 40%.",
+          "pop": "40"
+        },
+        {
+          "period": 7,
+          "icon": "nt_partlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_partlycloudy.gif",
+          "title": "Friday Night",
+          "fcttext": "Cloudy and windy early, becoming partly cloudy late. Low 43F. Winds SE at 20 to 30 mph.",
+          "fcttext_metric": "Windy. Cloudy skies will become partly cloudy overnight. Low 6C. Winds SE at 30 to 50 km/h.",
+          "pop": "20"
+        },
+        {
+          "period": 8,
+          "icon": "chancetstorms",
+          "icon_url": "http://icons.wxug.com/i/c/k/chancetstorms.gif",
+          "title": "Saturday",
+          "fcttext": "Partial cloudiness early, with scattered showers and thunderstorms in the afternoon. High 57F. Winds SW at 15 to 25 mph. Chance of rain 40%.",
+          "fcttext_metric": "Partly cloudy with afternoon showers or thunderstorms. High 14C. Winds SW at 25 to 40 km/h. Chance of rain 40%.",
+          "pop": "40"
+        },
+        {
+          "period": 9,
+          "icon": "nt_chancetstorms",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_chancetstorms.gif",
+          "title": "Saturday Night",
+          "fcttext": "Variable clouds with showers and scattered thunderstorms. Storms more numerous during the evening. Low 52F. Winds SW at 10 to 20 mph. Chance of rain 40%.",
+          "fcttext_metric": "Variable clouds with showers and scattered thunderstorms. Storms more numerous during the evening. Low 11C. Winds SW at 15 to 30 km/h. Chance of rain 40%.",
+          "pop": "40"
+        },
+        {
+          "period": 10,
+          "icon": "chancetstorms",
+          "icon_url": "http://icons.wxug.com/i/c/k/chancetstorms.gif",
+          "title": "Sunday",
+          "fcttext": "Partly cloudy with afternoon showers or thunderstorms. High around 55F. SSW winds shifting to NNW at 10 to 20 mph. Chance of rain 40%.",
+          "fcttext_metric": "Partly cloudy with afternoon showers or thunderstorms. High 13C. SSW winds shifting to NNW at 15 to 30 km/h. Chance of rain 40%.",
+          "pop": "40"
+        },
+        {
+          "period": 11,
+          "icon": "nt_chancetstorms",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_chancetstorms.gif",
+          "title": "Sunday Night",
+          "fcttext": "Isolated thunderstorms during the evening, then partly cloudy overnight. Low 47F. Winds ESE at 10 to 15 mph. Chance of rain 30%.",
+          "fcttext_metric": "Isolated thunderstorms during the evening hours. Skies will become partly cloudy overnight. Low 8C. Winds ESE at 10 to 15 km/h. Chance of rain 30%.",
+          "pop": "30"
+        },
+        {
+          "period": 12,
+          "icon": "partlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+          "title": "Monday",
+          "fcttext": "Partly cloudy. High 53F. SSE winds shifting to W at 10 to 15 mph.",
+          "fcttext_metric": "Intervals of clouds and sunshine. High 11C. Winds WSW at 10 to 15 km/h.",
+          "pop": "20"
+        },
+        {
+          "period": 13,
+          "icon": "nt_clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_clear.gif",
+          "title": "Monday Night",
+          "fcttext": "Clear skies. Low 48F. Winds NNW at 5 to 10 mph.",
+          "fcttext_metric": "Clear skies. Low 9C. Winds NNW at 10 to 15 km/h.",
+          "pop": "20"
+        },
+        {
+          "period": 14,
+          "icon": "clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+          "title": "Tuesday",
+          "fcttext": "A mainly sunny sky. High around 55F. Winds WSW at 10 to 15 mph.",
+          "fcttext_metric": "A mainly sunny sky. High 13C. Winds WSW at 10 to 15 km/h.",
+          "pop": "20"
+        },
+        {
+          "period": 15,
+          "icon": "nt_clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_clear.gif",
+          "title": "Tuesday Night",
+          "fcttext": "Clear. Low 51F. Winds SSW at 5 to 10 mph.",
+          "fcttext_metric": "Clear skies. Low near 10C. Winds SSW at 10 to 15 km/h.",
+          "pop": "20"
+        },
+        {
+          "period": 16,
+          "icon": "clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+          "title": "Wednesday",
+          "fcttext": "Except for a few afternoon clouds, mainly sunny. High 58F. Winds S at 10 to 15 mph.",
+          "fcttext_metric": "Except for a few afternoon clouds, mainly sunny. High 14C. Winds S at 15 to 25 km/h.",
+          "pop": "20"
+        },
+        {
+          "period": 17,
+          "icon": "nt_tstorms",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_tstorms.gif",
+          "title": "Wednesday Night",
+          "fcttext": "Partial cloudiness early, with scattered showers and thunderstorms later during the night. Low 52F. Winds S at 5 to 10 mph. Chance of rain 40%.",
+          "fcttext_metric": "Partly cloudy with late night showers or thunderstorms. Low 11C. Winds S at 10 to 15 km/h. Chance of rain 40%.",
+          "pop": "40"
+        },
+        {
+          "period": 18,
+          "icon": "chancetstorms",
+          "icon_url": "http://icons.wxug.com/i/c/k/chancetstorms.gif",
+          "title": "Thursday",
+          "fcttext": "Scattered thunderstorms, especially in the morning. High 59F. Winds S at 10 to 15 mph. Chance of rain 40%.",
+          "fcttext_metric": "Partly to mostly cloudy skies with scattered thunderstorms mainly in the morning. High near 15C. Winds S at 15 to 25 km/h. Chance of rain 40%.",
+          "pop": "40"
+        },
+        {
+          "period": 19,
+          "icon": "nt_chancerain",
+          "icon_url": "http://icons.wxug.com/i/c/k/nt_chancerain.gif",
+          "title": "Thursday Night",
+          "fcttext": "Cloudy with a few showers. Low near 50F. Winds SE at 10 to 15 mph. Chance of rain 30%.",
+          "fcttext_metric": "Cloudy with a few showers. Low near 10C. Winds SE at 10 to 15 km/h. Chance of rain 30%.",
+          "pop": "30"
+        }
+      ]
+    },
+    "simpleforecast": {
+      "forecastday": [
+        {
+          "date": {
+            "epoch": "1525820400",
+            "pretty": "7:00 PM EDT on May 08, 2018",
+            "day": 8,
+            "month": 5,
+            "year": 2018,
+            "yday": 127,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "1",
+            "monthname": "May",
+            "monthname_short": "May",
+            "weekday_short": "Tue",
+            "weekday": "Tuesday",
+            "ampm": "PM",
+            "tz_short": "EDT",
+            "tz_long": "America/Toronto"
+          },
+          "period": 1,
+          "high": {
+            "fahrenheit": "47",
+            "celsius": "8"
+          },
+          "low": {
+            "fahrenheit": "44",
+            "celsius": "7"
+          },
+          "conditions": "Clear",
+          "icon": "clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+          "skyicon": "",
+          "pop": 10,
+          "qpf_allday": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_day": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_night": {
+            "in": 0,
+            "cm": 0
+          },
+          "maxwind": {
+            "mph": 10,
+            "kph": 16,
+            "dir": "ENE",
+            "degrees": 73
+          },
+          "avewind": {
+            "mph": 6,
+            "kph": 10,
+            "dir": "ENE",
+            "degrees": 73
+          },
+          "avehumidity": 75,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        },
+        {
+          "date": {
+            "epoch": "1525906800",
+            "pretty": "7:00 PM EDT on May 09, 2018",
+            "day": 9,
+            "month": 5,
+            "year": 2018,
+            "yday": 128,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "1",
+            "monthname": "May",
+            "monthname_short": "May",
+            "weekday_short": "Wed",
+            "weekday": "Wednesday",
+            "ampm": "PM",
+            "tz_short": "EDT",
+            "tz_long": "America/Toronto"
+          },
+          "period": 2,
+          "high": {
+            "fahrenheit": "52",
+            "celsius": "11"
+          },
+          "low": {
+            "fahrenheit": "50",
+            "celsius": "10"
+          },
+          "conditions": "Partly Cloudy",
+          "icon": "partlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+          "skyicon": "",
+          "pop": 10,
+          "qpf_allday": {
+            "in": 0.17,
+            "mm": 4
+          },
+          "qpf_day": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0.17,
+            "mm": 4
+          },
+          "snow_allday": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_day": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_night": {
+            "in": 0,
+            "cm": 0
+          },
+          "maxwind": {
+            "mph": 20,
+            "kph": 32,
+            "dir": "SE",
+            "degrees": 127
+          },
+          "avewind": {
+            "mph": 14,
+            "kph": 23,
+            "dir": "SE",
+            "degrees": 127
+          },
+          "avehumidity": 83,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        },
+        {
+          "date": {
+            "epoch": "1525993200",
+            "pretty": "7:00 PM EDT on May 10, 2018",
+            "day": 10,
+            "month": 5,
+            "year": 2018,
+            "yday": 129,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "1",
+            "monthname": "May",
+            "monthname_short": "May",
+            "weekday_short": "Thu",
+            "weekday": "Thursday",
+            "ampm": "PM",
+            "tz_short": "EDT",
+            "tz_long": "America/Toronto"
+          },
+          "period": 3,
+          "high": {
+            "fahrenheit": "53",
+            "celsius": "12"
+          },
+          "low": {
+            "fahrenheit": "39",
+            "celsius": "4"
+          },
+          "conditions": "Partly Cloudy",
+          "icon": "partlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+          "skyicon": "",
+          "pop": 20,
+          "qpf_allday": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_day": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_night": {
+            "in": 0,
+            "cm": 0
+          },
+          "maxwind": {
+            "mph": 25,
+            "kph": 40,
+            "dir": "W",
+            "degrees": 263
+          },
+          "avewind": {
+            "mph": 19,
+            "kph": 31,
+            "dir": "W",
+            "degrees": 263
+          },
+          "avehumidity": 80,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        },
+        {
+          "date": {
+            "epoch": "1526079600",
+            "pretty": "7:00 PM EDT on May 11, 2018",
+            "day": 11,
+            "month": 5,
+            "year": 2018,
+            "yday": 130,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "1",
+            "monthname": "May",
+            "monthname_short": "May",
+            "weekday_short": "Fri",
+            "weekday": "Friday",
+            "ampm": "PM",
+            "tz_short": "EDT",
+            "tz_long": "America/Toronto"
+          },
+          "period": 4,
+          "high": {
+            "fahrenheit": "43",
+            "celsius": "6"
+          },
+          "low": {
+            "fahrenheit": "43",
+            "celsius": "6"
+          },
+          "conditions": "Chance of Rain",
+          "icon": "chancerain",
+          "icon_url": "http://icons.wxug.com/i/c/k/chancerain.gif",
+          "skyicon": "",
+          "pop": 40,
+          "qpf_allday": {
+            "in": 0.03,
+            "mm": 1
+          },
+          "qpf_day": {
+            "in": 0.02,
+            "mm": 1
+          },
+          "qpf_night": {
+            "in": 0,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_day": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_night": {
+            "in": 0,
+            "cm": 0
+          },
+          "maxwind": {
+            "mph": 25,
+            "kph": 40,
+            "dir": "ENE",
+            "degrees": 66
+          },
+          "avewind": {
+            "mph": 19,
+            "kph": 31,
+            "dir": "ENE",
+            "degrees": 66
+          },
+          "avehumidity": 69,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        },
+        {
+          "date": {
+            "epoch": "1526166000",
+            "pretty": "7:00 PM EDT on May 12, 2018",
+            "day": 12,
+            "month": 5,
+            "year": 2018,
+            "yday": 131,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "1",
+            "monthname": "May",
+            "monthname_short": "May",
+            "weekday_short": "Sat",
+            "weekday": "Saturday",
+            "ampm": "PM",
+            "tz_short": "EDT",
+            "tz_long": "America/Toronto"
+          },
+          "period": 5,
+          "high": {
+            "fahrenheit": "57",
+            "celsius": "14"
+          },
+          "low": {
+            "fahrenheit": "52",
+            "celsius": "11"
+          },
+          "conditions": "Chance of a Thunderstorm",
+          "icon": "chancetstorms",
+          "icon_url": "http://icons.wxug.com/i/c/k/chancetstorms.gif",
+          "skyicon": "",
+          "pop": 40,
+          "qpf_allday": {
+            "in": 0.57,
+            "mm": 14
+          },
+          "qpf_day": {
+            "in": 0.13,
+            "mm": 3
+          },
+          "qpf_night": {
+            "in": 0.44,
+            "mm": 11
+          },
+          "snow_allday": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_day": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_night": {
+            "in": 0,
+            "cm": 0
+          },
+          "maxwind": {
+            "mph": 25,
+            "kph": 40,
+            "dir": "SW",
+            "degrees": 221
+          },
+          "avewind": {
+            "mph": 17,
+            "kph": 27,
+            "dir": "SW",
+            "degrees": 221
+          },
+          "avehumidity": 80,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        },
+        {
+          "date": {
+            "epoch": "1526252400",
+            "pretty": "7:00 PM EDT on May 13, 2018",
+            "day": 13,
+            "month": 5,
+            "year": 2018,
+            "yday": 132,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "1",
+            "monthname": "May",
+            "monthname_short": "May",
+            "weekday_short": "Sun",
+            "weekday": "Sunday",
+            "ampm": "PM",
+            "tz_short": "EDT",
+            "tz_long": "America/Toronto"
+          },
+          "period": 6,
+          "high": {
+            "fahrenheit": "55",
+            "celsius": "13"
+          },
+          "low": {
+            "fahrenheit": "47",
+            "celsius": "8"
+          },
+          "conditions": "Chance of a Thunderstorm",
+          "icon": "chancetstorms",
+          "icon_url": "http://icons.wxug.com/i/c/k/chancetstorms.gif",
+          "skyicon": "",
+          "pop": 40,
+          "qpf_allday": {
+            "in": 0.1,
+            "mm": 3
+          },
+          "qpf_day": {
+            "in": 0.07,
+            "mm": 2
+          },
+          "qpf_night": {
+            "in": 0.03,
+            "mm": 1
+          },
+          "snow_allday": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_day": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_night": {
+            "in": 0,
+            "cm": 0
+          },
+          "maxwind": {
+            "mph": 20,
+            "kph": 32,
+            "dir": "SW",
+            "degrees": 218
+          },
+          "avewind": {
+            "mph": 15,
+            "kph": 24,
+            "dir": "SW",
+            "degrees": 218
+          },
+          "avehumidity": 72,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        },
+        {
+          "date": {
+            "epoch": "1526338800",
+            "pretty": "7:00 PM EDT on May 14, 2018",
+            "day": 14,
+            "month": 5,
+            "year": 2018,
+            "yday": 133,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "1",
+            "monthname": "May",
+            "monthname_short": "May",
+            "weekday_short": "Mon",
+            "weekday": "Monday",
+            "ampm": "PM",
+            "tz_short": "EDT",
+            "tz_long": "America/Toronto"
+          },
+          "period": 7,
+          "high": {
+            "fahrenheit": "53",
+            "celsius": "12"
+          },
+          "low": {
+            "fahrenheit": "48",
+            "celsius": "9"
+          },
+          "conditions": "Partly Cloudy",
+          "icon": "partlycloudy",
+          "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+          "skyicon": "",
+          "pop": 20,
+          "qpf_allday": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_day": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_night": {
+            "in": 0,
+            "cm": 0
+          },
+          "maxwind": {
+            "mph": 15,
+            "kph": 24,
+            "dir": "WSW",
+            "degrees": 250
+          },
+          "avewind": {
+            "mph": 10,
+            "kph": 16,
+            "dir": "WSW",
+            "degrees": 250
+          },
+          "avehumidity": 70,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        },
+        {
+          "date": {
+            "epoch": "1526425200",
+            "pretty": "7:00 PM EDT on May 15, 2018",
+            "day": 15,
+            "month": 5,
+            "year": 2018,
+            "yday": 134,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "1",
+            "monthname": "May",
+            "monthname_short": "May",
+            "weekday_short": "Tue",
+            "weekday": "Tuesday",
+            "ampm": "PM",
+            "tz_short": "EDT",
+            "tz_long": "America/Toronto"
+          },
+          "period": 8,
+          "high": {
+            "fahrenheit": "55",
+            "celsius": "13"
+          },
+          "low": {
+            "fahrenheit": "51",
+            "celsius": "11"
+          },
+          "conditions": "Clear",
+          "icon": "clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+          "skyicon": "",
+          "pop": 20,
+          "qpf_allday": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_day": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0,
+            "mm": 0
+          },
+          "snow_allday": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_day": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_night": {
+            "in": 0,
+            "cm": 0
+          },
+          "maxwind": {
+            "mph": 15,
+            "kph": 24,
+            "dir": "WSW",
+            "degrees": 238
+          },
+          "avewind": {
+            "mph": 10,
+            "kph": 16,
+            "dir": "WSW",
+            "degrees": 238
+          },
+          "avehumidity": 71,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        },
+        {
+          "date": {
+            "epoch": "1526511600",
+            "pretty": "7:00 PM EDT on May 16, 2018",
+            "day": 16,
+            "month": 5,
+            "year": 2018,
+            "yday": 135,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "1",
+            "monthname": "May",
+            "monthname_short": "May",
+            "weekday_short": "Wed",
+            "weekday": "Wednesday",
+            "ampm": "PM",
+            "tz_short": "EDT",
+            "tz_long": "America/Toronto"
+          },
+          "period": 9,
+          "high": {
+            "fahrenheit": "58",
+            "celsius": "14"
+          },
+          "low": {
+            "fahrenheit": "52",
+            "celsius": "11"
+          },
+          "conditions": "Clear",
+          "icon": "clear",
+          "icon_url": "http://icons.wxug.com/i/c/k/clear.gif",
+          "skyicon": "",
+          "pop": 20,
+          "qpf_allday": {
+            "in": 0.03,
+            "mm": 1
+          },
+          "qpf_day": {
+            "in": 0,
+            "mm": 0
+          },
+          "qpf_night": {
+            "in": 0.03,
+            "mm": 1
+          },
+          "snow_allday": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_day": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_night": {
+            "in": 0,
+            "cm": 0
+          },
+          "maxwind": {
+            "mph": 15,
+            "kph": 24,
+            "dir": "S",
+            "degrees": 184
+          },
+          "avewind": {
+            "mph": 10,
+            "kph": 16,
+            "dir": "S",
+            "degrees": 184
+          },
+          "avehumidity": 75,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        },
+        {
+          "date": {
+            "epoch": "1526598000",
+            "pretty": "7:00 PM EDT on May 17, 2018",
+            "day": 17,
+            "month": 5,
+            "year": 2018,
+            "yday": 136,
+            "hour": 19,
+            "min": "00",
+            "sec": 0,
+            "isdst": "1",
+            "monthname": "May",
+            "monthname_short": "May",
+            "weekday_short": "Thu",
+            "weekday": "Thursday",
+            "ampm": "PM",
+            "tz_short": "EDT",
+            "tz_long": "America/Toronto"
+          },
+          "period": 10,
+          "high": {
+            "fahrenheit": "59",
+            "celsius": "15"
+          },
+          "low": {
+            "fahrenheit": "50",
+            "celsius": "10"
+          },
+          "conditions": "Chance of a Thunderstorm",
+          "icon": "chancetstorms",
+          "icon_url": "http://icons.wxug.com/i/c/k/chancetstorms.gif",
+          "skyicon": "",
+          "pop": 40,
+          "qpf_allday": {
+            "in": 0.15,
+            "mm": 4
+          },
+          "qpf_day": {
+            "in": 0.08,
+            "mm": 2
+          },
+          "qpf_night": {
+            "in": 0.07,
+            "mm": 2
+          },
+          "snow_allday": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_day": {
+            "in": 0,
+            "cm": 0
+          },
+          "snow_night": {
+            "in": 0,
+            "cm": 0
+          },
+          "maxwind": {
+            "mph": 15,
+            "kph": 24,
+            "dir": "S",
+            "degrees": 173
+          },
+          "avewind": {
+            "mph": 11,
+            "kph": 18,
+            "dir": "S",
+            "degrees": 173
+          },
+          "avehumidity": 67,
+          "maxhumidity": 0,
+          "minhumidity": 0
+        }
+      ]
+    }
+  }
+}

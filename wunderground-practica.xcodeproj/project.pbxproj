@@ -8,14 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		3A66C470209E230400BB61E7 /* CurrentWeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A66C46F209E230400BB61E7 /* CurrentWeatherInfo.swift */; };
+		3A7452F520A155B4009F1D6A /* WeatherServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7452F420A155B4009F1D6A /* WeatherServiceTests.swift */; };
+		3A7452F720A1597C009F1D6A /* successfulCurrentWeatherResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A7452F620A1597C009F1D6A /* successfulCurrentWeatherResponse.json */; };
+		3A7452FA20A16259009F1D6A /* successful10DayWeatherForecastResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A7452F920A16259009F1D6A /* successful10DayWeatherForecastResponse.json */; };
+		3AA5A17820A20D9D001F2115 /* TenDayForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA5A17720A20D9D001F2115 /* TenDayForecast.swift */; };
+		3ABAEDF420A14AD9009D74DD /* CurrentWeatherInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABAEDF320A14AD9009D74DD /* CurrentWeatherInfoTests.swift */; };
 		3AC3F282209E0E9700003175 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3F281209E0E9700003175 /* AppDelegate.swift */; };
 		3AC3F284209E0E9700003175 /* CurrentForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3F283209E0E9700003175 /* CurrentForecastViewController.swift */; };
 		3AC3F287209E0E9700003175 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC3F285209E0E9700003175 /* Main.storyboard */; };
 		3AC3F289209E0E9800003175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC3F288209E0E9800003175 /* Assets.xcassets */; };
 		3AC3F28C209E0E9800003175 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC3F28A209E0E9800003175 /* LaunchScreen.storyboard */; };
-		3AC3F297209E0E9800003175 /* wunderground_practicaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3F296209E0E9800003175 /* wunderground_practicaTests.swift */; };
 		3AC3F2A6209E11E900003175 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3F2A5209E11E900003175 /* WeatherService.swift */; };
 		3AC3F2A9209E1A3300003175 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3F2A8209E1A3300003175 /* NetworkManager.swift */; };
+		CD73E20B37651998AB49838F /* Pods_wunderground_practicaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F068DC6D4E1704A22C9667 /* Pods_wunderground_practicaTests.framework */; };
+		F59BD70DBD8F47A6A19B888F /* Pods_wunderground_practica.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D9BCFCC3B0F83D28440250 /* Pods_wunderground_practica.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +35,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		078069C7C8A5151AC7FDC2F8 /* Pods-wunderground-practicaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wunderground-practicaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wunderground-practicaTests/Pods-wunderground-practicaTests.release.xcconfig"; sourceTree = "<group>"; };
+		16F068DC6D4E1704A22C9667 /* Pods_wunderground_practicaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wunderground_practicaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A66C46F209E230400BB61E7 /* CurrentWeatherInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherInfo.swift; sourceTree = "<group>"; };
+		3A7452F420A155B4009F1D6A /* WeatherServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherServiceTests.swift; sourceTree = "<group>"; };
+		3A7452F620A1597C009F1D6A /* successfulCurrentWeatherResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = successfulCurrentWeatherResponse.json; sourceTree = SOURCE_ROOT; };
+		3A7452F920A16259009F1D6A /* successful10DayWeatherForecastResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = successful10DayWeatherForecastResponse.json; sourceTree = SOURCE_ROOT; };
+		3AA5A17720A20D9D001F2115 /* TenDayForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenDayForecast.swift; sourceTree = "<group>"; };
+		3ABAEDF320A14AD9009D74DD /* CurrentWeatherInfoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherInfoTests.swift; sourceTree = "<group>"; };
 		3AC3F27E209E0E9700003175 /* wunderground-practica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wunderground-practica.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AC3F281209E0E9700003175 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AC3F283209E0E9700003175 /* CurrentForecastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentForecastViewController.swift; sourceTree = "<group>"; };
@@ -38,10 +51,13 @@
 		3AC3F28B209E0E9800003175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AC3F28D209E0E9800003175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AC3F292209E0E9800003175 /* wunderground-practicaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wunderground-practicaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AC3F296209E0E9800003175 /* wunderground_practicaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wunderground_practicaTests.swift; sourceTree = "<group>"; };
 		3AC3F298209E0E9800003175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AC3F2A5209E11E900003175 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
 		3AC3F2A8209E1A3300003175 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		4A9E4FD20E0E2D1F142BA4C6 /* Pods-wunderground-practica.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wunderground-practica.release.xcconfig"; path = "Pods/Target Support Files/Pods-wunderground-practica/Pods-wunderground-practica.release.xcconfig"; sourceTree = "<group>"; };
+		53D9BCFCC3B0F83D28440250 /* Pods_wunderground_practica.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wunderground_practica.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7951FB24FA7F12FCB047C44A /* Pods-wunderground-practicaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wunderground-practicaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wunderground-practicaTests/Pods-wunderground-practicaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B9F7C225F7D2D67F821AF59 /* Pods-wunderground-practica.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wunderground-practica.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wunderground-practica/Pods-wunderground-practica.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F59BD70DBD8F47A6A19B888F /* Pods_wunderground_practica.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,18 +73,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD73E20B37651998AB49838F /* Pods_wunderground_practicaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D6AF664A257A0BA9FF0EA76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53D9BCFCC3B0F83D28440250 /* Pods_wunderground_practica.framework */,
+				16F068DC6D4E1704A22C9667 /* Pods_wunderground_practicaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3A66C471209E230800BB61E7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				3A66C46F209E230400BB61E7 /* CurrentWeatherInfo.swift */,
+				3AA5A17720A20D9D001F2115 /* TenDayForecast.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		3A7452F820A15CAD009F1D6A /* ServicesTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A7452F420A155B4009F1D6A /* WeatherServiceTests.swift */,
+			);
+			path = ServicesTests;
+			sourceTree = "<group>";
+		};
+		3ABAEDF520A14F84009D74DD /* ModelsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3ABAEDF320A14AD9009D74DD /* CurrentWeatherInfoTests.swift */,
+			);
+			path = ModelsTests;
 			sourceTree = "<group>";
 		};
 		3AC3F275209E0E9700003175 = {
@@ -76,6 +120,8 @@
 				3AC3F280209E0E9700003175 /* wunderground-practica */,
 				3AC3F295209E0E9800003175 /* wunderground-practicaTests */,
 				3AC3F27F209E0E9700003175 /* Products */,
+				7DFB7CDA986F73E9C5967B9F /* Pods */,
+				1D6AF664A257A0BA9FF0EA76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,8 +152,11 @@
 		3AC3F295209E0E9800003175 /* wunderground-practicaTests */ = {
 			isa = PBXGroup;
 			children = (
-				3AC3F296209E0E9800003175 /* wunderground_practicaTests.swift */,
+				3A7452F920A16259009F1D6A /* successful10DayWeatherForecastResponse.json */,
+				3A7452F620A1597C009F1D6A /* successfulCurrentWeatherResponse.json */,
 				3AC3F298209E0E9800003175 /* Info.plist */,
+				3ABAEDF520A14F84009D74DD /* ModelsTests */,
+				3A7452F820A15CAD009F1D6A /* ServicesTests */,
 			);
 			path = "wunderground-practicaTests";
 			sourceTree = "<group>";
@@ -161,6 +210,17 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
+		7DFB7CDA986F73E9C5967B9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B9F7C225F7D2D67F821AF59 /* Pods-wunderground-practica.debug.xcconfig */,
+				4A9E4FD20E0E2D1F142BA4C6 /* Pods-wunderground-practica.release.xcconfig */,
+				7951FB24FA7F12FCB047C44A /* Pods-wunderground-practicaTests.debug.xcconfig */,
+				078069C7C8A5151AC7FDC2F8 /* Pods-wunderground-practicaTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AC3F29B209E0E9800003175 /* Build configuration list for PBXNativeTarget "wunderground-practica" */;
 			buildPhases = (
+				4D5287CE570DD52674E811F6 /* [CP] Check Pods Manifest.lock */,
 				3AC3F27A209E0E9700003175 /* Sources */,
 				3AC3F27B209E0E9700003175 /* Frameworks */,
 				3AC3F27C209E0E9700003175 /* Resources */,
@@ -185,9 +246,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AC3F29E209E0E9800003175 /* Build configuration list for PBXNativeTarget "wunderground-practicaTests" */;
 			buildPhases = (
+				327894DFD30A09E4748300CB /* [CP] Check Pods Manifest.lock */,
 				3AC3F28E209E0E9800003175 /* Sources */,
 				3AC3F28F209E0E9800003175 /* Frameworks */,
 				3AC3F290209E0E9800003175 /* Resources */,
+				D11BDBBC6D6F737818798FE5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,10 +315,69 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A7452FA20A16259009F1D6A /* successful10DayWeatherForecastResponse.json in Resources */,
+				3A7452F720A1597C009F1D6A /* successfulCurrentWeatherResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		327894DFD30A09E4748300CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wunderground-practicaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D5287CE570DD52674E811F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wunderground-practica-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D11BDBBC6D6F737818798FE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-wunderground-practicaTests/Pods-wunderground-practicaTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OHHTTPStubs.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wunderground-practicaTests/Pods-wunderground-practicaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3AC3F27A209E0E9700003175 /* Sources */ = {
@@ -265,6 +387,7 @@
 				3AC3F2A9209E1A3300003175 /* NetworkManager.swift in Sources */,
 				3AC3F284209E0E9700003175 /* CurrentForecastViewController.swift in Sources */,
 				3A66C470209E230400BB61E7 /* CurrentWeatherInfo.swift in Sources */,
+				3AA5A17820A20D9D001F2115 /* TenDayForecast.swift in Sources */,
 				3AC3F2A6209E11E900003175 /* WeatherService.swift in Sources */,
 				3AC3F282209E0E9700003175 /* AppDelegate.swift in Sources */,
 			);
@@ -274,7 +397,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AC3F297209E0E9800003175 /* wunderground_practicaTests.swift in Sources */,
+				3ABAEDF420A14AD9009D74DD /* CurrentWeatherInfoTests.swift in Sources */,
+				3A7452F520A155B4009F1D6A /* WeatherServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +548,7 @@
 		};
 		3AC3F29C209E0E9800003175 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B9F7C225F7D2D67F821AF59 /* Pods-wunderground-practica.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +567,7 @@
 		};
 		3AC3F29D209E0E9800003175 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A9E4FD20E0E2D1F142BA4C6 /* Pods-wunderground-practica.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -460,6 +586,7 @@
 		};
 		3AC3F29F209E0E9800003175 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7951FB24FA7F12FCB047C44A /* Pods-wunderground-practicaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -481,6 +608,7 @@
 		};
 		3AC3F2A0209E0E9800003175 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 078069C7C8A5151AC7FDC2F8 /* Pods-wunderground-practicaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

@@ -9,11 +9,11 @@
 import Foundation
 
 
-struct NetworkManager {
+class NetworkManager {
     
     /** fetches data for a given url with the default URLSessionConfiguration and calls completion with response Data
      */
-    static func fetchDataFor(url: URL, completion: @escaping (Data) -> Void) {
+    class func fetchDataFor(url: URL, completion: @escaping (Data) -> Void) {
         
         let session = URLSession(configuration: .default)
         let request = URLRequest(url: url)
